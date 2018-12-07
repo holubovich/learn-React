@@ -58,9 +58,13 @@ let cars=null
           <button
               onClick={this.toggleCarsHandler}
               >Toggle cars</button>
-
+          <div style={{
+          width:400,
+          margin:'auto',
+          paddingTop:'20px'
+          }}>
           {cars}
-
+          </div>
         </div>
     );
   }
